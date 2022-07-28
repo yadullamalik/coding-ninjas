@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+.main_timer {
+  margin: auto;
+  width: 400px;
+}
+.time_div {
+  border: 1px solid red;
+  height: 100px;
+  width: 100%;
+}
+.hospital {
+  border: 1px solid red;
+  height: 100px;
+  width: 100%;
+}
+.city {
+  background-color: #f9f9c5;
+  color: #f37878;
+  padding: 0px 50px;
+  height: 100px;
+  border-radius: 35px;
+  padding-top: 10px;
+  border: 3px solid #f37878;
+}
