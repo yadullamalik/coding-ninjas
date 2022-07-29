@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useSelector } from "react-redux";
 import "./App.css";
 import { Button } from "./Components/Button";
+import Chat from "./Components/Chat";
 import { Navbar } from "./Components/Navbar";
 import { Timer } from "./Components/Timer";
 
@@ -46,6 +47,7 @@ function App() {
       >
         {show == "timer" ? <Timer /> : <Button />}
       </div>
+      <Chat />
     </div>
   );
 }
