@@ -5,8 +5,11 @@ export const Navbar = () => {
         display: "flex",
         justifyContent: "space-between",
         padding: "0px 100px",
-        backgroundColor: "#72FFFF",
-        color: "#5800FF",
+        backgroundColor: "#f9f9c5",
+        color: "#f37878",
+        border: "3px solid #f37878",
+        margin: "5px 20px",
+        borderRadius: "25px",
       }}
     >
       <div>
